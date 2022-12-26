@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <div class="game-mode" id="mode">
+      <h1>Tic Tac Toe!</h1>
+      <button id="vsPlayer">Player VS Player</button>
+      <button id="vsAI">Player VS AI</button>
+    </div>
+
+    <div id="chooseName-vsAI">
+      <label for="">Your Name</label>
+      <input type="text" id="single-yourName" />
+      <button class="enter-game">Enter Game</button>
+    </div>
+
+    <div id="chooseName-vsPlayer">
+      <div>
+        <label for="">player one Name</label>
+        <input type="text" id="multi-one-name" />
+      </div>
+
+      <div>
+        <label for="">player one Name</label>
+        <input type="text" id="multi-two-name" />
+      </div>
+
+      <button class="enter-game">Enter Game</button>
+    </div>
+
+    <div id="game">
+      <div id="turn">
+        <p id="your-name"></p>
+        <p id="player-one"></p>
+        <p id="player-two"></p>
+      </div>
+      <div class="choice" id="1"></div>
+      <div class="choice" id="2"></div>
+      <div class="choice" id="3"></div>
+      <div class="choice" id="4"></div>
+      <div class="choice" id="5"></div>
+      <div class="choice" id="6"></div>
+      <div class="choice" id="7"></div>
+      <div class="choice" id="8"></div>
+      <div class="choice" id="9"></div>
+      <button id="game-reset">Reset The Game</button>
+      <p id="winner"></p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
